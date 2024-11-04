@@ -5,7 +5,7 @@ const cors = require('cors')
 
 const errorMiddleware = require("./middlewares/error")
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'https://ecommerce-frontend-bice-one.vercel.app/',
     credentials: true
   };
 app.use(cors(corsOptions));
