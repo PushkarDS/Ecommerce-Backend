@@ -1,0 +1,21 @@
+PORT=4000
+
+DB_URI ="mongodb://127.0.0.1:27017/Ecommerce"
+
+JWT_SECRET=DSHFHKGHAKEGFAGGAAEFJKKJADFHJDFJKASGFJAEGFd380477gdfhkgskho3848reydhs
+
+JWT_EXPIRE=5d
+
+COOKIE_EXPIRE=5
+
+SMPT_SERVICE="gmail"
+
+SMPT_MAIL="xchangeonlineportal@gmail.com"
+
+SMPT_PASSWORD="wtlglnbzhyueufvy"
+
+SMPT_HOST="smtp.gmail.com"
+
+SMPT_PORT="465"
+
+CLIENT_URL= frontend url
