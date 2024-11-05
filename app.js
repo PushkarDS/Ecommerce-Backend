@@ -5,7 +5,7 @@ const cors = require('cors')
 
 const errorMiddleware = require("./middlewares/error")
 const corsOptions = {
-    origin: 'https://ecommerce-frontend-1632.vercel.app/',
+    origin: 'https://ecommerce-frontend-1632.vercel.app',
     credentials: true
   };
 app.use(cors(corsOptions));
